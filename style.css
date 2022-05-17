@@ -1,0 +1,132 @@
+/* 
+Theme Name: theme1
+Version: 1.0
+Author: Shuma
+*/
+
+body{
+  font-family: 'Shippori Mincho' !important;
+}
+
+/* スクロール時のフェードイン */
+section{
+  opacity: 0;
+  transition: 2s !important;
+}
+
+.fade-in{
+  opacity: 1 !important;
+}
+/* ----------------------------- */
+
+.navbar{
+ padding:0;
+}
+
+.navbar-brand{
+  width:100%;
+}
+
+.nav-icon{
+  display: none
+}
+
+.nav-contents{
+  display: flex;
+}
+
+.btn-social{
+  display: none !important;
+}
+
+.sns-icon{
+  display: none !important;
+}
+/* ------------------------------------------------------------ */
+header{
+  background-color: rgba(255 , 255, 255, 0.5) !important;
+}
+
+#services{
+  margin: 0 auto;
+}
+
+.list-inline-item{
+  
+}
+
+.margin-auto{
+  margin: 0 auto !important;
+  padding:0 20%;
+}
+
+.portfolio-caption-subheading{
+  list-style: none !important;
+}
+
+.fa-wordpress, .fa-apartment{
+  color: white;
+}
+
+.fa-4x{
+  font-size:4em !important;
+}
+/* ------------------------------------------------------------ */
+@media screen and (min-width: 768px) {
+  body{
+    margin:0 0 0 200px;
+  }
+
+  .navbar-brand{
+    margin: 0 auto;
+    color: white !important;
+    width:100% !important;
+    padding:100px 0 0 0 !important;
+  }
+
+  .navbar{
+    width:200px;
+    align-items: center;
+    padding:50px 0 !important;
+    height: 100%;
+    display: block !important;
+    flex-wrap: wrap !important;
+    background-color: rgba(128  , 0, 128, 0.8) !important;
+    text-align: center;
+  }
+
+  .nav-contents{
+    display: block !important;
+    padding:50px 0 0 0;
+  }
+
+  .nav-icon{
+    display: block;
+  }
+  
+  .navbar-nav{
+    display: block !important;
+    background-color: rgba(255 , 255, 255, 0) !important;
+    text-align: left;
+  }
+
+  .navbar-collapse{
+    display: block !important;
+    flex-wrap: wrap !important;
+    flex-grow:0;
+  }
+}
+
+.btn-social{
+  display: inline-block !important;
+}
+
+.sns-icon{
+  display: inline-block !important;
+  vertical-align: middle;
+}
+/* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ */
+
